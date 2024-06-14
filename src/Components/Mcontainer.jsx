@@ -2,6 +2,8 @@ import React from 'react'
 import { FaInstagram, FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { TiArrowBackOutline } from "react-icons/ti";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdMailOutline } from "react-icons/md";
 
 function Mcontainer() {
   return (
@@ -14,8 +16,11 @@ function Mcontainer() {
           </div>
           <div className='text-white flex gap-6 my-5'>
             <a href='https://www.instagram.com/jaybhatade.ai/' className='hover:scale-110 transition-all ease-in-out duration-200'><FaInstagram size={30}/></a>
-            <a href='https://github.com/jaybhatade' className='hover:scale-110 transition-all ease-in-out duration-200'><FaGithub size={30}/></a>
             <a href='https://x.com/jaybhatade' className='hover:scale-110 transition-all ease-in-out duration-200'><FaXTwitter size={30}/></a>
+            <a href='mailto:jaybhatade7@gmail.com' className='hover:scale-110 transition-all ease-in-out duration-200'><MdMailOutline size={32}/></a>
+            <a href='https://x.com/jaybhatade' className='hover:scale-110 transition-all ease-in-out duration-200'><FaLinkedinIn size={30}/></a>
+
+
           </div>
         </div>
         <div className='w-full h-fit flex flex-col items-center p-2'>
